@@ -6,6 +6,8 @@ Original project: https://ftps.codeplex.com/
 Protocols set to:
 SslProtocols.Tls12 | SslProtocols.Tls11 | SslProtocols.Tls
 
+Package at:
+https://www.nuget.org/packages/AlexFTPSv2
 
 This package was created to address errors encountered while trying to connect to an endpoint that had deprecated the endpoints available in .net 2.0 (sslv3 etc).
 
