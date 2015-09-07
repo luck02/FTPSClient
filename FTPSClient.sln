@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPSClientCmdApp", "FTPSClientCmdApp\FTPSClientCmdApp.csproj", "{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPSClient", "FTPSClient\FTPSClient.csproj", "{8271707D-0C08-460D-A332-6FDB8D0BB6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{1275F362-2F28-4F6D-8F73-DBAEAA4F9F8D}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\C5.dll = Lib\C5.dll
+		Lib\Plossum CommandLine.dll = Lib\Plossum CommandLine.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs09
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FTPSClientCmdApp\\FTPSClientCmdApp.csproj
+		SccProjectName1 = FTPSClientCmdApp
+		SccLocalPath1 = FTPSClientCmdApp
+		SccProjectUniqueName2 = FTPSClient\\FTPSClient.csproj
+		SccProjectName2 = FTPSClient
+		SccLocalPath2 = FTPSClient
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1AFDF825-AFF2-4A46-80B6-3AF5F81941F6}.Release|Win32.ActiveCfg = Release|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8271707D-0C08-460D-A332-6FDB8D0BB6D1}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

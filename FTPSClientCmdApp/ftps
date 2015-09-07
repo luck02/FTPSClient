@@ -1,0 +1,5 @@
+#!/bin/sh
+
+script_dir=$(dirname "$0")
+mono "$script_dir/ftps.exe" $*
+

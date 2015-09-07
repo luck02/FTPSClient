@@ -1,0 +1,115 @@
+﻿Alex FTPS version 1.0.2
+Copyright (C) Alessandro Pilotti 2008-2009
+
+
+ABOUT
+
+Alex FTPS is a free FTP/FTPS client and class library available on platforms supporting the .Net Framework 2.0 or Mono 2.0.
+
+Implemented IETF RFCs:
+959, 2228, 2389, 2428, 2640, 3659, 4217
+
+FTPS (sometimes called FTPES) is implemented as described in the RFC 4217 and RFC 2228 documents.
+It should not be confused with SFTP (FTP over SSH).
+
+Please see http://www.codeplex.com/ftps for more information.
+
+
+LICENSE
+
+This is free software, you may use it under the terms of
+the LGPL license <http://www.gnu.org/copyleft/lesser.html>
+
+
+REQUIREMENTS
+
+Microsoft .Net Framework 2.0 or Mono 2.0
+
+Supported Operating Systems:
+
+-Microsoft Windows 2000/XP/2003/Vista/2008 (both x86 and x64)
+-Linux (Any Mono 2.0 and above supported distribution)
+-Mac OS X 10.4 and above
+
+
+INSTALLATION
+
+Just copy the contents of the AlexFTPS folder somewhere on your path. 
+
+
+USAGE
+
+ftps [options] <command> [command specific arguments]
+
+Using Mono, you might also execute it with: "mono ftps.exe <arguments>"
+
+To get help about commands and options, execute:
+
+ftps -?
+
+
+CHANGELOG
+
+2009/01/04
+
+Version 1.0.0 (beta)
+
+
+2009/01/08
+
+Version 1.0.1
+
+- Added support form Implicit FTPS connections
+
+- Improved support for Xlight FTP Server 3.1.1
+
+- Support for connections not requiring a password (USER command returning a 232 code) 
+
+- Added values to the ESSLSupportMode enum: ControlAndDataChannelsRequested, ControlAndDataChannelsRequired, All, Implicit
+
+- Changed ESSLSupportMode values: DataChannelRequested, DataChannelRequired (breaking change)
+
+- Removed property FTPSClient.IsDataChannelEncrypted (breaking change)
+
+- Checged property FTPSClient.IsControlChannelEncrypted scope to private (breaking change)
+
+- Replaced the x509ClientCertFilePath parameter name and type with x509ClientCert in a FTPSClient.Connect overload (breaking change)
+
+- Minor bug fixes in TLS/SSL support
+
+- Minor console interface changes
+
+
+2009/01/18
+
+Version 1.0.2
+
+- Improved support for multiline replies on some systems
+
+- Improved directory listings compatibility
+
+- CredentialsRequested / CredentialsRequired connections do not try to revert to clear text when the server does not support the CCC command in the FEAT list
+
+- Renamed class FTPResponse to FTPReply for better RFC naming consistence
+
+- New FTPException subclasses added
+
+
+2011/07/01
+
+Version 1.1.0
+
+- Active mode
+
+- IPv6
+
+- Improved support for implicit SSL on FileZilla server
+
+- Command Log file
+
+
+
+SUPPORT AND CONTACTS:
+
+Website: http://www.codeplex.com/ftps
+Email:   info@pilotti.it
