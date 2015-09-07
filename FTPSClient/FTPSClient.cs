@@ -1660,7 +1660,7 @@ namespace AlexPilotti.FTPS.Client
             if (sslClientCert != null)
                 clientCertColl.Add(sslClientCert);
 
-            //sslStream.AuthenticateAsClient(hostname);
+            //sslStream.AuthenticateAsClient(hostname); Line below is the only real change from Alex's version to mine (in addition to changing the compile target to .net4.5.1)
             sslStream.AuthenticateAsClient(hostname, clientCertColl, SslProtocols.Tls12 | SslProtocols.Tls11 | SslProtocols.Tls, false);
 
             CheckSslAlgorithmsStrength(sslStream);
